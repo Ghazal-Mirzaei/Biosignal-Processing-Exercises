@@ -1,25 +1,29 @@
-# Week 1 — Signal Basics and Visualization
+# Biosignal Processing Exercises
 
-This folder contains the first week's lab exercises, focused on generating and visualizing fundamental signal types in MATLAB. The tasks introduce the building blocks of signal processing: continuous and discrete representations, periodic waveforms, and frequency analysis.
+This repository contains weekly MATLAB lab exercises completed as part of a Biosignal Processing course in the Biomedical Engineering MSc program at Hochschule Anhalt.
 
-## Tasks
+The exercises cover the fundamentals of signal processing with a focus on biosignal and EEG analysis — from basic signal generation and visualization, through filtering and frequency analysis, to working with real EEG data.
 
-| File | Description |
-|------|-------------|
-| `Task1_continuous_sine.m` | Plots a continuous sine wave over a defined time interval |
-| `Task2_discrete_sine.m` | Visualizes a sine wave sampled at discrete points using a stem plot |
-| `Task3_square_wave.m` | Generates and plots a periodic square wave (pulse train) |
-| `Task4_combined_signals.m` | Displays all three signal types together using subplots |
-| `Task5_superposition_fft.m` | Superposes three sinusoidal signals and analyzes their frequency content using the Fast Fourier Transform (FFT) |
+## Repository Structure
 
-## Concepts Covered
+| Folder | Topic |
+|--------|-------|
+| `Week01_Signal_Basics` | Signal generation, visualization, and introductory FFT |
 
-- Continuous vs. discrete signal representation
-- Periodic waveforms: sine and square waves
-- Signal superposition
-- Frequency domain analysis using the FFT
-- Nyquist sampling theorem (applied in Task 5)
+> More weeks will be added progressively.
 
-## Notes
+## Tools and Environment
 
-Task 5 is the most relevant to biosignal analysis — decomposing a composite signal into its frequency components is the same principle used in EEG band analysis (Delta, Theta, Alpha, Beta).
+- MATLAB
+- Signal Processing Toolbox
+
+## Topics Covered
+
+- Continuous and discrete signal representation
+- Periodic waveforms and signal superposition
+- Frequency domain analysis (FFT)
+- *(More topics to be added as the repository grows)*
+
+## About
+
+These exercises were completed as part of coursework in biomedical signal processing. The repository is intended to document practical understanding of the subject in preparation for further research in EEG and biosignal analysis.

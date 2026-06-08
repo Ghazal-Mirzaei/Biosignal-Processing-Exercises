@@ -1,0 +1,2 @@
+Condition,File,Sampling rate (Hz),Samples,Duration (s),Detected beats (n),Mean HR (bpm),Min HR (bpm),Max HR (bpm),Mean RR (ms),Min RR (ms),Max RR (ms),SDNN (ms)
+post_exercise,02_ECG_1min_1kHz-Stress.txt,1000.0,60000,60.0,125,125.88,115.16,137.3,477.81,437.0,521.0,23.74
